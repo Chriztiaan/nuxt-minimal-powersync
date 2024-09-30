@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "^3.12.4",
+    "vue": "latest",
+    "@powersync/vue": "latest",
+    "@powersync/web": "latest",
+    "@powersync/common": "latest",
+    "@supabase/supabase-js": "^2.39.7",
+    "vite-plugin-top-level-await": "^1.4.1",
+    "vite-plugin-wasm": "^3.3.0",
+    "js-logger": "^1.6.1"
+  }
+}
